@@ -12,21 +12,31 @@ The image converter is tested only in Python 2.7.
 
 Python dependencies:
  1) OpenCV
+ 
  2) Pillow
+ 
  3) Numpy, Scipy, Matplotlib
 
 Usage instructions for indexer module:
+ 
  python/python3 index.py -d/--dataset images -i/--index index.cpickle
  
 Usage instructions for search result validation module:
+ 
  python/python3 search.py --dataset images --index index.cpickle
  
 Usage instruction for external search module:
+ 
  python/python3 search_external.py -d/--dataset -i/--index index.cpickle -q/--query query.png
 
 Usage instructions for creating a custom image dataset:
+ 
  For applying this search engine to a custom image set, use a collection of 400x400 pixel .png images.
  
 Additional extras:
+ 
  1) An included dataset of 42 images of world's most valuable paintings (https://en.wikipedia.org/wiki/List_of_most_expensive_paintings), resized to 400x400 px and converted to .png format.
+ 
  2) A pickle file with the pre-generated search index.
+
+Developer environment: AMD64 Ubuntu Linux, version 17.04 (http://releases.ubuntu.com/17.04/).
