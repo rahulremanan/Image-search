@@ -6,7 +6,7 @@ A modified fork of : http://code.activestate.com/recipes/180801-convert-image-fo
 The search engine image database currently only supports .png files of 400x400 pixel resolution.
 Use the included image_converter.py to convert/batch process images of other formats to .png.
 
-The search engine has two modules, an indexer and a search module. The search module is divided into a database validation module and an external image search module. Both the indexer and the search modules are tested in Python 2.7 and Python 3.6.
+The search engine has two modules, an indexer and a search module. The search module is divided into a database validation module and an external image search module. Both the indexer and the search modules are tested in Python 2.7 and Python 3.5.
 
 The image converter is tested only in Python 2.7.
 
